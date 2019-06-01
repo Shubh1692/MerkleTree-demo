@@ -1,0 +1,18 @@
+{
+  "name": "merkletreejsfrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o dist/bundle.js",
+    "watch": "watchify index.js -o dist/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "crypto-js": "^3.1.9-1",
+    "merkletreejs": "0.0.25",
+    "watchify": "^3.11.1"
+  }
+}
